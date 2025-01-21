@@ -1,0 +1,1 @@
+fetch("localhost:3000/")
