@@ -2,7 +2,7 @@ import requests
 import os
 from pyquery import PyQuery
 
-outfolder = "../../../Database/sheisnotawitch/bin/"
+outfolder = "../../../Database/sheisnotawitch/raw/"
 baseUrl = "http://www.biquge5200.net/"
 curUrl = "140_140086/176332920.html"
 
