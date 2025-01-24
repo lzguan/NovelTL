@@ -1,0 +1,24 @@
+chapter: 0
+chapter: 1
+chapter: 2
+chapter: 3
+chapter: 4
+chapter: 5
+chapter: 6
+chapter: 7
+chapter: 8
+chapter: 9
+chapter: 10
+chapter: 11
+chapter: 12
+chapter: 13
+chapter: 14
+chapter: 15
+chapter: 16
+chapter: 17
+ERROR
+start: 369
+end: 370
+word: 洛
+[{'entity': 'B-ORDINAL', 'score': 0.9999976, 'index': 1, 'word': '第', 'start': 0, 'end': 1}, {'entity': 'I-ORDINAL', 'score': 0.99999785, 'index': 2, 'word': '十', 'start': 1, 'end': 2}, {'entity': 'E-ORDINAL', 'score': 0.9999974, 'index': 3, 'word': '六', 'start': 2, 'end': 3}, {'entity': 'B-DATE', 'score': 0.99999845, 'index': 53, 'word': '三', 'start': 54, 'end': 55}, {'entity': 'E-DATE', 'score': 0.9999969, 'index': 54, 'word': '天', 'start': 55, 'end': 56}, {'entity': 'B-DATE', 'score': 0.9988174, 'index': 83, 'word': '前', 'start': 84, 'end': 85}, {'entity': 'I-DATE', 'score': 0.99972063, 'index': 84, 'word': '几', 'start': 85, 'end': 86}, {'entity': 'E-DATE', 'score': 0.9998568, 'index': 85, 'word': '天', 'start': 86, 'end': 87}, {'entity': 'B-PERSON', 'score': 0.99996424, 'index': 164, 'word': '洛', 'start': 169, 'end': 170}, {'entity': 'I-PERSON', 'score': 0.999997, 'index': 165, 'word': '兰', 'start': 170, 'end': 171}, {'entity': 'I-PERSON', 'score': 0.9999968, 'index': 166, 'word': '希', 'start': 171, 'end': 172}, {'entity': 'E-PERSON', 'score': 0.99999595, 'index': 167, 'word': '尔', 'start': 172, 'end': 173}, {'entity': 'B-DATE', 'score': 0.9920345, 'index': 169, 'word': '几', 'start': 174, 'end': 175}, {'entity': 'E-DATE', 'score': 0.9999114, 'index': 170, 'word': '天', 'start': 175, 'end': 176}, {'entity': 'B-PERSON', 'score': 0.95983887, 'index': 270, 'word': '卓', 'start': 278, 'end': 279}, {'entity': 'B-PERSON', 'score': 0.9989806, 'index': 360, 'word': '洛', 'start': 369, 'end': 370}, {'entity': 'I-PERSON', 'score': 0.9998627, 'index': 361, 'word': '兰', 'start': 370, 'end': 371}, {'entity': 'I-PERSON', 'score': 0.9999378, 'index': 362, 'word': '希', 'start': 371, 'end': 372}, {'entity': 'E-PERSON', 'score': 0.9999151, 'index': 363, 'word': '尔', 'start': 372, 'end': 373}, {'entity': 'E-DATE', 'score': 0.8391367, 'index': 414, 'word': '朝', 'start': 424, 'end': 425}, {'entity': 'B-PERSON', 'score': 0.9992945, 'index': 498, 'word': '洛', 'start': 509, 'end': 510}, {'entity': 'I-PERSON', 'score': 0.99997985, 'index': 499, 'word': '兰', 'start': 510, 'end': 511}, {'entity': 'I-PERSON', 'score': 0.99998236, 'index': 500, 'word': '希', 'start': 511, 'end': 512}, {'entity': 'E-PERSON', 'score': 0.9999738, 'index': 501, 'word': '尔', 'start': 512, 'end': 513}]
+{'镇守府求生指北': 0, '寻找走丢的舰娘': 0, '克兰西亚': 1, '·索兰德': 1, '普尔曼': 1, '洛兰希尔·': 2, '洛兰希尔': 2, '翠娜莎': 4, '玛娜': 5, '莫克': 7, '艾许莉': 7}
