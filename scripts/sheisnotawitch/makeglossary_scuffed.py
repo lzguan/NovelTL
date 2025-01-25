@@ -83,7 +83,7 @@ for i in itertools.count(start=0, step=1):
             glossary[ent] = i
         curstate = State.wait
 
-with open('glossary.json', 'w') as file:
+with open('glossary_unprocessed.json', 'w') as file:
     json.dump(glossary, file)
     
         
