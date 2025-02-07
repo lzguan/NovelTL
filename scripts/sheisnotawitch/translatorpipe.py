@@ -19,25 +19,24 @@ out = {}
 MAX_FAIL = 40
 fails = 0
 
-for file in glob.glob(glob.escape(rawdir) + "/*.txt"):
+for cnum in range(276 ,277):
+    file = rawdir + "chapter_" + str(cnum) + ".txt"
     with open(file, 'r') as f:
         chap = f.read()
     while fails < MAX_FAIL:
         try:
             response = client.chat.completions.create(
                 model = "deepseek-chat",
-                messages = [{"role": "system", "content": sysprompt + glossary}, {"role": "user", "content": userprompt + chap}]
+                messages = [{"role": "system", "content": sysprompt + glossary}, {"role": "user", "content": userprompt + chap}],
+                temperature = 1.3
             )
+            print("Translated " + file)
             break
-        except:
+        except Exception as e:
             print("An error occured")
+            print(e.message, e.args)
     if fails >= MAX_FAIL:
         print("Too many fails, breaking at " + file)
         break
     with open(outdir + os.path.basename(file), 'w') as g:
         g.write(response.choices[0].message.content)
-
-
-
-
-# print(response)
