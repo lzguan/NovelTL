@@ -19,7 +19,7 @@ out = {}
 MAX_FAIL = 40
 fails = 0
 
-for cnum in range(276 ,277):
+for cnum in range(196,1309):
     file = rawdir + "chapter_" + str(cnum) + ".txt"
     with open(file, 'r') as f:
         chap = f.read()
