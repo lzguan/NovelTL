@@ -64,13 +64,3 @@ for i in itertools.count(start=1, step=1):
 with open('glossary_unprocessed.json', 'w') as file:
     json.dump(glossary, file)
     
-        
-# infile = '../../../Database/sheisnotawitch/raw/chapter_145.txt'
-# text = ""
-
-# with open(infile, 'r') as f:
-#     for line in f:
-#         text = text + line
-# entities = nlp_ner(text)
-# print(text)
-# print(entities)
